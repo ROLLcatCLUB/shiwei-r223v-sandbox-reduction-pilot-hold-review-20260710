@@ -1,0 +1,39 @@
+{
+  "stage_id": "1013R_R223V_SANDBOX_REDUCTION_OR_PILOT_HOLD",
+  "status": "reduction_or_pilot_hold_decision_only",
+  "decision": "PASS_CONTINUE_TO_R223W_REVIEW_ONLY_PILOT_GATE_SPEC",
+  "source_stages": [
+    "1013R_R223T_FIXTURE_ONLY_SANDBOX_PREVIEW",
+    "1013R_R223U_SANDBOX_TEACHER_REVIEW"
+  ],
+  "files": [
+    "R223V_sandbox_reduction_review.md",
+    "R223V_teacher_draft_full_reading_recommendation.md",
+    "R223V_review_ledger_default_collapse_policy.md",
+    "R223V_component_trigger_metadata_policy.md",
+    "R223V_v0_1_v0_2_difference_summary_policy.md",
+    "R223V_pilot_or_hold_decision.md",
+    "R223V_next_stage_handoff.md",
+    "R223V_decision_report.md",
+    "README_FOR_GPT_REVIEW.md",
+    "validate_1013R_R223V_sandbox_reduction_or_pilot_hold.py",
+    "validate_1013R_R223V_sandbox_reduction_or_pilot_hold_result.json"
+  ],
+  "boundaries": {
+    "schema_v0_2_published": false,
+    "formal_ui": false,
+    "r97b_modified": false,
+    "formal_route_added": false,
+    "frontend_backend_modified": false,
+    "runtime_connected": false,
+    "provider_model_connected": false,
+    "prompt_modified": false,
+    "database_written": false,
+    "lesson_body_written": false,
+    "existing_teacher_drafts_modified": false,
+    "r222d_component_library_modified": false,
+    "formal_apply": false
+  },
+  "next_allowed": "1013R_R223W_REVIEW_ONLY_PILOT_GATE_SPEC"
+}
+
